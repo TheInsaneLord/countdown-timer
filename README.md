@@ -22,6 +22,7 @@ then edit the timer as you need to by changing the varables
 - hours
 - minutes
 - seconds
+
 for example to set the timmer to count down from 5:30 set the varebles to
 ```bash
 hours=0
