@@ -5,9 +5,10 @@ hours=0
 minutes=5
 seconds=0
 countdown_time=$((hours*3600 + minutes*60 + seconds))
+user=$(whoami)
 
 # Set the file path for the text file
-text_file=/home/owen/temp/countdown.txt
+text_file=/home/$user/countdown.txt
 
 # Loop through the countdown time
 while [ $countdown_time -gt 0 ]
