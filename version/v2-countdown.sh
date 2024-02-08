@@ -1,10 +1,11 @@
 #!/bin/bash
+user=$(whoami)
 
 # Set the countdown time (in seconds)
 countdown_time=10
 
 # Set the file path for the text file
-text_file=/home/owen/temp/countdown.txt
+text_file=/home/$user/countdown.txt
 
 # Loop through the countdown time
 while [ $countdown_time -gt 0 ]
