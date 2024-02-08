@@ -16,7 +16,7 @@ this operates simarly to the applacation known as [Snaz](https://github.com/Jimm
 to use this script run the following commands in a terminal
 ```shell
 cd countdown-timer/version/
-nano v4-countdown.sh
+nano v5-countdown.sh
 ```
 then edit the timer as you need to by changing the varables
 - hours
@@ -31,7 +31,7 @@ seconds=30
 ```
 then to run the script 
 ```
-bash v4-countdown.sh 
+bash v5-countdown.sh 
 ```
 
 this will start the countdown automaticly and out put the countdown to the countdown.txt and will overwrite the data inside the file. at the end of the countdown the timmer will be repaceed with "Countdown finished" this can be changed by editing the line containg.
